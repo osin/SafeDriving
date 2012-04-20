@@ -84,7 +84,7 @@ function Begin($title='Home', $layout=true, $label="Activity") {
                 if ($privilege->label == 'user') {
                   include '../public/hubUserMenu.php';
                 }else
-                  include '../office/hub' . $privilege->label . 'Menu.php';
+                  include '../office/hub' . ucfirst ($privilege->label) . 'Menu.php';
               }
             }
             endif;
