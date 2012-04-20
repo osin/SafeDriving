@@ -20,7 +20,7 @@ $connections = array(
 
 # must issue a "use" statement in your closure if passing variables
 ActiveRecord\Config::initialize(function($cfg) use ($connections) {
-          $cfg->set_model_directory('/M1/common/inc/models');
+          $cfg->set_model_directory('../common/inc/models');
           $cfg->set_connections($connections);
           $cfg->set_date_format("Y-m-d H:i:s");
 
