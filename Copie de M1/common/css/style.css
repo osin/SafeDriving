@@ -1,0 +1,141 @@
+/*
+Theme Name: SafeDring Supinfo
+Theme URI: http://www.steffirakotozafy.com/
+Description: Projet de développement
+Version: 2011
+*/
+
+body {
+  font: 13px/1.5 "Helvetica Neue",Helvetica,Arial,Tahoma,Sans-serif;
+  color: #333;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, li, p { margin: 0; padding: 0; }
+li { list-style: none; }
+img { border: 0; }
+a, a:visited, a:active  { color: #333; text-decoration: none; }
+a:hover { text-decoration: underline; }
+blockquote { padding: 10px; border-left: 4px solid #BBB; background: #EEE; }
+
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+}
+.clearfix {
+  display: inline-table;
+}
+/* Hides from IE-mac \*/
+.clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+
+.fl { float: left!important; }
+.fr { float: right!important; }
+
+
+#header { width: 153px; height: 100%; position: fixed; background: #0097ca url('../images/bg-bleu.jpg') repeat-y; }
+  #logo { width: 152px; height: 66px; background: url('../images/logo.png') no-repeat; text-indent:  -9999em; margin: 30px 0; cursor : pointer; }
+  #menu { text-align: right; }
+  #menu span {display: block; padding: 10px; font-size: 12px; font-weight: bold; color: #fff; text-decoration: none; }
+  #menu a { display: block; padding: 10px; font-size: 12px; font-weight: bold; color: #fff; text-decoration: none; }
+  #menu a:hover { background: rgba(255,255,255,0.2); text-decoration: underline; }
+  #menu ul { border-bottom: 1px solid #0067b2; border-top: 1px solid #16cbe9; }
+  #menu ul li{font-variant: small-caps}
+  #menu ul li:first-child { border-top: 0!important; font-variant: normal}
+  #menu ul li:last-child { border-bottom: 0!important; }
+#content { width: 1000px; margin-left: 153px;  }
+  .posts { padding: 30px; }
+  .post { padding: 30px 0 ; }
+#mycomments { padding: 10px 0px; }
+  #mycomments .avatar { display: none; }
+  #mycomments input[type=text] { width: 300px!important; }
+  #mycomments input[type=text], #mycomments textarea {
+    font-size: 1.1em!important;
+    padding: 7px!important;
+    text-decoration: none!important;
+    -webkit-border-radius: 0.4em!important;
+    -moz-border-radius: 0.4em!important;
+    border-radius: 0.4em!important;
+    border: 4px solid #f2f2f2!important;
+    box-shadow: inset rgba(0,0,0, 0.4) 0px 0px 1px!important;
+    -moz-box-shadow: inset rgba(0,0,0, 0.4) 0px 0px 1px!important;
+    -webkit-box-shadow: inset rgba(0,0,0, 0.4) 0px 0px 2px!important;
+  }
+  #mycomments input[type=text]:hover, .wpcf7 textarea:hover {
+    border: 4px solid #EAEAEA!important;
+}
+
+#userInfo { text-align: right; padding: 10px; background: #F7F7F7; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.titre { border-bottom: 1px solid #EEE;padding: 5px 0; margin-bottom: 10px }
+.sub-menu { background-color: rgba(0,0,0,0.2); font-variant: normal!important; }
+
+table { border: 1px solid #DDD; }
+table a { color: #009cff!important; font-weight: bold; }
+tr, th, td { border: 0; padding: 5px; text-align: left; }
+th { border-bottom: 1px solid #DDD; color: #333333; text-transform: uppercase; }
+
+input[type=text], input[type=mail], select, input[type=password] {
+  font-weight:bold;
+  padding: 10px;
+  font-size: 13px!important;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  background-color: #FFF;
+  border: 5px solid #f7f7f7;
+  -moz-box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.4);
+  width: 200px;
+}
+
+  .my_button{
+    font-size: 14px;
+    cursor:pointer;
+    font-weight:bold;
+    padding: 13px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+    width: 99%;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+  }
+
+  .btn-bleu {
+    color: #fff;
+    border: 0;
+    background: #e2e1dd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4acaf2), to(#009bcc));
+    background: -moz-linear-gradient(top, #4acaf2, #009bcc);
+  }
+
+  .btn-bleu:hover {
+    background: #009bcc;
+    color: #fff;
+  }
+
+#footer-main{
+  text-transform:capitalize;
+  color:#fff;
+}
+#footer{
+
+}
+#footer ul li{
+	float:left;
+}
+#footer ul li a{
+  color:#AAA;
+	text-decoration:none;
+	padding:0 15px 0 15px;
+}
+#footer ul li a:hover{
+	text-decoration:underline;
+}
