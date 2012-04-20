@@ -4,9 +4,6 @@ class User extends ActiveRecord\Model {
 
   static $validates_presence_of = array(
       array('username'), array('email'), array('wordpress_id'));
-  static $has_many = array(
-      array('userprivileges'),
-      array('privileges', 'throught' => 'userprivileges'));
 
   function getPrivileges() {
     $privileges_id = UserPrivilege::find('all', array('conditions' => array('user_id' => $this->id)));
