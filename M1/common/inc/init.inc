@@ -15,7 +15,7 @@ define("modelPrefixWordPress", "wp_");
 // <editor-fold defaultstate="collapsed" desc="inclusion des classes de models">
 require_once '../common/inc/ActiveRecord.inc';
 $connections = array(
-    'development' => 'mysql://user_a0f0f372:E5e&Bq_GNYDVLA@a.db.shared.orchestra.io/db_a0f0f372?charset="utf8',
+    'development' => 'mysql://USER:PASSWORD@HOST/DATABASE?charset="utf8',
 );
 
 # must issue a "use" statement in your closure if passing variables
